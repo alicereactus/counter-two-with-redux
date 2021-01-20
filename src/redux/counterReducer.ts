@@ -21,30 +21,30 @@ const initialState: CounterState = {
 export const counterReducer = (state: CounterState = initialState, action: CounterReducersTypes): CounterState => {
     switch (action.type) {
         case ACTIONS_TYPE.SET_MAX_LOCAL_STORAGE_VALUE:
-            return {
-                ...state,
-                ...action.payload
-            };
+            // return {
+            //     ...state,
+            //     ...action.payload
+            // };
         case ACTIONS_TYPE.SET_START_LOCAL_STORAGE_VALUE:
-            return {
-                ...state,
-                ...action.payload
-            };
+            // return {
+            //     ...state,
+            //     ...action.payload
+            // };
         case ACTIONS_TYPE.SET_MAX_VALUE:
-            return {
-                ...state,
-                ...action.payload
-            };
+            // return {
+            //     ...state,
+            //     ...action.payload
+            // };
         case ACTIONS_TYPE.SET_START_VALUE:
-            return {
-                ...state,
-                ...action.payload
-            };
+            // return {
+            //     ...state,
+            //     ...action.payload
+            // };
         case ACTIONS_TYPE.SET_COUNT_VALUE:
-            return {
-                ...state,
-                ...action.payload
-            };
+            // return {
+            //     ...state,
+            //     ...action.payload
+            // };
         case ACTIONS_TYPE.SET_SHOW:
             return {
                 ...state,
